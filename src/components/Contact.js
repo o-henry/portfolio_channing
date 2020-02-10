@@ -6,16 +6,41 @@ const Contact = () => {
   return (
     <div>
       <span className="Contact">
-        <FaGithub size={26} />
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/o-henry"
+        >
+          <FaGithub size={20} />
+        </a>
       </span>
       <span className="Contact">
-        <FaGoogle size={26} />
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="mailto:c.henry.9209@gmail.com"
+        >
+          <FaGoogle size={20} />
+        </a>
+      </span>
+
+      <span className="Contact">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/chan-haeng-l-b12089180/"
+        >
+          <FaLinkedin size={20} />
+        </a>
       </span>
       <span className="Contact">
-        <FaLinkedin size={28} />
-      </span>
-      <span className="Contact">
-        <FaBlogger size={28} />
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://o-henry.github.io/"
+        >
+          <FaBlogger size={20} />
+        </a>
       </span>
     </div>
   );
