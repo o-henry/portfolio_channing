@@ -1,0 +1,24 @@
+.About {
+  display: flex;
+  justify-content: center;
+  margin: 10rem;
+  align-items: center;
+  height: 25rem;
+
+  .About-Head {
+    margin: 9rem;
+    padding: 20rem;
+    padding-left: 5rem;
+    font-size: 5rem;
+    font-family: "Gilroy", sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+  }
+
+  .About-Body {
+    padding-top: 1rem;
+    align-items: flex-end;
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+}
