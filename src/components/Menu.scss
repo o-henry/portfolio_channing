@@ -1,7 +1,20 @@
 .Menu {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
   line-height: 3rem;
+  background-color: #32383d;
 
   .Body {
+    display: flex;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    // height: 50rem;
+    // width: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: Avenir Next Bold, sans-serif;
   }
 
@@ -10,6 +23,6 @@
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 0.3rem;
-    color: #4c555c;
+    color: white;
   }
 }

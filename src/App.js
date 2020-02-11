@@ -1,7 +1,7 @@
 import React from "react";
 import Router from "./routes/Router";
 import { Footer } from "./components";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (

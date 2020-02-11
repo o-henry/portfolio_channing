@@ -13,11 +13,22 @@
     .body-top {
       flex: 1;
       padding: 12%;
+      .body-top-grid {
+        .body-top-text {
+          padding: 4rem;
+          letter-spacing: 1rem;
+          .link {
+            text-decoration: none;
+            color: #4c555c;
+          }
+        }
+      }
     }
     .body-bottom {
-      background-color: #4c555c;
+      background-color: #32383d;
       flex: 1;
       padding: 12%;
+      margin-top: 2.5rem;
     }
   }
 }

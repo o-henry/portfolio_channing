@@ -13,7 +13,7 @@ import "./About.scss";
 
 const About = () => {
   return (
-    <div className="About">
+    <div className="About-page">
       <img src={me} alt="Channing" />
       <div className="Bio">
         <div className="Header">EDUCATION AND ACTIVITIES</div>
@@ -55,7 +55,7 @@ const About = () => {
           </div>
         </div>
         <span className="subtitle">PROJECT MANAGEMENT</span>
-        <div className="InnerText"> Agile Development & Scrum</div>
+        <div className="text"> Agile Development & Scrum</div>
       </div>
     </div>
   );

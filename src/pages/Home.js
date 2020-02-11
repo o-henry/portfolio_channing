@@ -5,7 +5,7 @@ import "./Home.scss";
 
 const Home = () => {
   return (
-    <div>
+    <div className="Homepage">
       <div className="About">
         <div className="About-Head">
           Hello
@@ -16,10 +16,8 @@ const Home = () => {
             아이디어를 기록하고, 실제 구체화 가능한지에 대한 고민을 하곤 합니다.
           </div>
         </div>
-        <div className="Menu">
-          <Menu />
-        </div>
       </div>
+      <Menu />
     </div>
   );
 };
