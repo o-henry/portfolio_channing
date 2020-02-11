@@ -13,22 +13,35 @@
     .body-top {
       flex: 1;
       padding: 12%;
-      .body-top-grid {
-        .body-top-text {
-          padding: 4rem;
-          letter-spacing: 1rem;
-          .link {
-            text-decoration: none;
-            color: #4c555c;
-          }
+      .body-top-text {
+        padding: 4rem;
+        letter-spacing: 1rem;
+        .link {
+          text-decoration: none;
+          color: #4c555c;
         }
       }
     }
     .body-bottom {
       background-color: #32383d;
       flex: 1;
+      color: white;
+      letter-spacing: 1rem;
       padding: 12%;
       margin-top: 2.5rem;
     }
   }
+}
+
+.Black {
+  background-color: #32383d;
+  flex: 1;
+  // color: white;
+  // letter-spacing: 1rem;
+  // padding: 12%;
+  // margin-top: 2.5rem;
+}
+
+.set-transition {
+  transition: all ease 2s 0s;
 }
