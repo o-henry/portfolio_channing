@@ -7,7 +7,6 @@
   margin: 10rem 10rem 10rem -1rem;
   align-items: center;
   height: 25rem;
-  z-index: 1;
 
   img {
     float: left;
@@ -16,11 +15,11 @@
     display: flex;
     margin: auto;
     padding: auto;
-    width: 9rem;
-    height: 9rem;
+    width: 12rem;
+    height: 12rem;
     // margin-bottom: 13%;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
-    border-radius: 100%;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 90%;
   }
 
   .About-Head {

@@ -1,8 +1,16 @@
-.Contact {
-  margin-right: 1rem;
-  opacity: 0.5;
-  //   color: #f0504f;
-  a {
-    color: inherit;
+.Ani-hover {
+  overflow: hidden;
+  transition: transform 0.2s; /* Animation */
+  .Contact {
+    margin-right: 1rem;
+    opacity: 0.5;
+
+    a {
+      color: inherit;
+    }
   }
+}
+
+.Contact:hover {
+  transform: scale(1.5);
 }

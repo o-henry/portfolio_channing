@@ -23,7 +23,7 @@ const About = () => {
             <br />
             AWS 101, 201 Seminar | 2019
             <br />
-            2019 AWS Webinar | 2019
+            AWS Webinar | 2019
           </div>
         </div>
         <div className="Header">SKILLS</div>
@@ -41,12 +41,12 @@ const About = () => {
           <div className="InnerPosition">
             <FaReact size={50} />
           </div>
-          <div className="InnerPosition">
+          {/* <div className="InnerPosition">
             <FaHtml5 size={50} />
           </div>
           <div className="InnerPosition">
             <FaCss3Alt size={50} />
-          </div>
+          </div> */}
           <div className="InnerPosition">
             <DiMysql size={50} />
           </div>
@@ -55,7 +55,7 @@ const About = () => {
           </div>
         </div>
         <span className="subtitle">PROJECT MANAGEMENT</span>
-        <div className="InnerText">Agile Development & Scrum</div>
+        <div className="InnerText"> Agile Development & Scrum</div>
       </div>
     </div>
   );

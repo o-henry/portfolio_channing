@@ -4,16 +4,7 @@ import "./Contact.scss";
 
 const Contact = () => {
   return (
-    <div>
-      <span className="Contact">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/o-henry"
-        >
-          <FaGithub size={20} />
-        </a>
-      </span>
+    <div className="Ani-hover">
       <span className="Contact">
         <a
           target="_blank"
@@ -21,6 +12,16 @@ const Contact = () => {
           href="mailto:c.henry.9209@gmail.com"
         >
           <FaGoogle size={20} />
+        </a>
+      </span>
+
+      <span className="Contact">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/o-henry"
+        >
+          <FaGithub size={20} />
         </a>
       </span>
 
