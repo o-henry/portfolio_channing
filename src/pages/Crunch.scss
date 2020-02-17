@@ -1,0 +1,32 @@
+.Crunch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3rem 3rem 3rem;
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+  font-family: "Muli", NanumBarunGothic, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .Crunch-video {
+    display: flex;
+    align-items: center;
+  }
+  .Half {
+    flex: 1;
+    color: #868e96;
+    letter-spacing: 0.3rem;
+    margin-left: 10rem;
+    margin-top: 6.5rem;
+    .Content {
+      font-size: 1rem;
+      line-height: 1.3rem;
+      font-weight: 500;
+      .link {
+        text-decoration: none;
+        color: #32383d;
+        font-weight: bold;
+      }
+    }
+  }
+}
