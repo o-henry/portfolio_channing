@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../public/me.jpeg";
+import me from "../static/me.jpeg";
 import {
   FaAws,
   FaNode,
