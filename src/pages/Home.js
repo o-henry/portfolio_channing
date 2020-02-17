@@ -1,6 +1,6 @@
 import React from "react";
 // import Menu from "../components/Menu";
-import { Menu, Contact } from "../components";
+import Menu from "../components/Menu";
 import "./Homecss.scss";
 
 const Home = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import Router from "./routes/Router";
-import { Footer } from "./components";
+import Footer from "./components/Footer";
 import "./App.scss";
 
 function App() {

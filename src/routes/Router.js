@@ -1,6 +1,12 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import { Home, About, Portfolio, Blinker, CrunchPrice, Local } from "../pages";
+import Home from "../pages/Home";
+import About from "../pages/About";
+import Portfolio from "../pages/Portfolio";
+import Blinker from "../pages/Blinker";
+import CrunchPrice from "../pages/CrunchPrice";
+import Local from "../pages/Local";
+// import { Home, About, Portfolio, Blinker, CrunchPrice, Local } from "../pages";
 
 const Router = () => {
   return (

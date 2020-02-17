@@ -1,5 +1,5 @@
 import React from "react";
-import { Contact } from "../components";
+import Contact from "./Contact";
 
 import "./Footercss.scss";
 const Footer = () => {
