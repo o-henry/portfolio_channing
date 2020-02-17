@@ -1,5 +1,5 @@
 import React from "react";
-import "./Crunch.scss";
+import "./Crunchp.scss";
 
 export default function CrunchPrice() {
   return (

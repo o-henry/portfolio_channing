@@ -9,7 +9,7 @@ import {
   FaJsSquare
 } from "react-icons/fa";
 import { DiMysql, DiMongodb } from "react-icons/di";
-import "./About.scss";
+import "./Aboutcss.scss";
 
 const About = () => {
   return (

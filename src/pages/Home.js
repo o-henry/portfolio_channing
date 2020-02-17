@@ -1,7 +1,7 @@
 import React from "react";
 // import Menu from "../components/Menu";
 import { Menu, Contact } from "../components";
-import "./Home.scss";
+import "./Homecss.scss";
 
 const Home = () => {
   return (

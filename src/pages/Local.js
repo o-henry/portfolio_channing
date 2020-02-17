@@ -1,5 +1,5 @@
 import React from "react";
-import "./Local.scss";
+import "./Localsns.scss";
 
 export default function Local() {
   return (

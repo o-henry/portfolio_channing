@@ -1,5 +1,5 @@
 import React from "react";
-import "./Blinker.scss";
+import "./Blinkercss.scss";
 
 export default function Blinker() {
   return (

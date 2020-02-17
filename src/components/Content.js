@@ -1,5 +1,5 @@
 import React from "react";
-import "./Content.scss";
+import "./Contentcss.scss";
 
 export default function Content() {
   return (
