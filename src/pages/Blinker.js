@@ -15,8 +15,8 @@ export default function Blinker() {
       ></iframe>
       <div className="Half">
         <div className="Content">
-          <b>윙크로 게임하기</b> 2019<br></br>| Front-End | React | AWS |{" "}
-          <br></br>
+          <b>윙크로 게임하기</b> 팀 프로젝트 2019<br></br>| Front-End | React |
+          AWS | <br></br>
           <br></br>
           openCV 기반 BRFV4 SDK를 사용하여 윙크를 <br></br>인식, 깜빡일때
           점프하는 웹 게임을 개발했습니다.
