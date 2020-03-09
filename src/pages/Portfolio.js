@@ -14,18 +14,19 @@ const Portfolio = () => {
             <Link
               className="link"
               to="/blinker"
+              exact={true}
               onClick={() => setClicked(true)}
             >
               BLINKER
             </Link>
           </span>
           <span className="body-top-text">
-            <Link className="link" to="/crunch">
+            <Link className="link" exact={true} to="/crunch">
               CRUNCH PRICE
             </Link>
           </span>
           <span className="body-top-text">
-            <Link className="link" to="/local">
+            <Link className="link" exact={true} to="/local">
               LOCAL
             </Link>
           </span>
